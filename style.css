@@ -1,0 +1,80 @@
+*{
+    font-family:"Inter", sans-serif;
+    color:white;
+}
+html {
+    font-size:100%
+}
+body{
+    font-size:90%;
+    background-color: black;
+}
+header{
+    margin-left:5rem;
+    display: grid;
+    grid-template: 50% 50% 50% 50%;
+    grid-template-columns: 1.5rem;
+
+}
+ .logo{
+
+    font-family: "Montserrat", sans-serif;
+    display:flex;
+    justify-content: start;
+    flex-direction:row;
+    align-items:center;
+    font-weight:700;
+    font-size: 24px;
+    
+}
+.icon{
+    width:5rem;
+}
+h1{
+    font-size:5rem;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-top:10%;
+    margin-bottom: 5%;
+}
+.ironman{
+    font-size:1.1rem;
+    margin-left:10%;
+    margin-bottom: 13%;
+
+}
+.quote{
+    display:flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    max-width: 23%;
+    margin-bottom:5%;
+}
+.figma{
+    display: flexbox;
+
+}
+button{
+    width:27.5rem;
+    height:5.25rem;
+    position:relative;
+    border-radius:0.9rem;
+    border-color:white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    border:1px solid rgb(184, 184, 184);
+}
+button:hover{
+    border-color:rgb(102, 102, 102);
+    background-color: rgb(3, 3, 3);
+    color:rgb(58, 57, 57);
+}
+button:active{
+    color:aqua;
+}
+.minion{
+
+}

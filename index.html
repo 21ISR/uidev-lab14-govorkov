@@ -5,44 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="public/favicon.svg" type="image/svg" />
-    <title>нупоплач</title>
+    <title>NoTab</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
         <section>
-            <img src="public/logo.svg">
             <div class="logo">
+                <img src="public/logo.svg" class="icon">
                 NoTab
             </div>
         </section>
-
         <section>
             <div>
                 <h1>
-                    A platform that works smarter
+                    A platform <br>that works smarter
                 </h1>
 
-                <div>
+                <div class="quote">
                     <img src="public/devourerofgods.svg">
-                    <p>
-                        NoTab allows bars & nightclubs to manage, understand, and grow their business from a single
+                    <p class="ironman">
+                        NoTab allows bars & nightclubs <br>to manage, understand, and grow <br>their business from a single
                         dashboard
                     </p>
                 </div>
@@ -81,27 +70,46 @@
             </article>
             <article>
                 <form>
-                    <label for="name">Name</label>
                     <input id="name" class="inputs" type="text" placeholder="Name" name="name" required />
-                    <label for="venue-name">Vanue Name</label>
-                    <input id="venue-name" class="inputs" type="text" placeholder="Vanue name" name="vanue name"
+                    
+                    <input id="venue-name" class="inputs" type="text" placeholder="Venue name" name="vanue name"
                         required />
                     <div>
-                        <label for="venue-city">Venue City</label>
-                        <input id="venue-city" class="inputs" type="text" placeholder="venue city" name="venue city"
+                       
+                        <input id="venue-city" class="inputs" type="text" placeholder="Venue city" name="venue city"
                             required />
-                        <label for="state">State City</label>
-                        <input id="venue-city" class="inputs" type="text" placeholder="venue city" name="venue city"
+                        
+                        <input id="venue-city" class="inputs" type="text" placeholder="State city" name="venue city"
                             required />
                     </div>
+                    
+                    <input id="email" class="inputs" type="email" placeholder="Email" name="Email"
+                    required />
+
+                    
+                    <input id="Subject" class="inputs" type="text" placeholder="Subject" name="Subject"
+                    required />
+                    
+                    <input id="Message" class="inputs" type="text" placeholder="Message" name="Message"
+                    required />
+                    <button>Send</button>
                 </form>
             </article>
 
         </section>
     </main>
-
-
-    <main>
+    <footer>
+        <section>
+            <div>
+                <p>Contact us:support@notab.com</p>
+                <p>Terms to use</p>
+            </div>
+            <div>
+                <p>Privacy policy</p>
+                <p>© 2025 - NoTab®</p>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
