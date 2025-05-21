@@ -10,38 +10,43 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-
-    <header>
-        <section>
-            <div class="logo">
-                <img src="public/logo.svg" class="icon">
-                NoTab
-            </div>
-        </section>
-        <section>
-            <div>
-                <h1>
-                    A platform <br>that works smarter
-                </h1>
-
-                <div class="quote">
-                    <img src="public/devourerofgods.svg">
-                    <p class="ironman">
-                        NoTab allows bars & nightclubs <br>to manage, understand, and grow <br>their business from a single
-                        dashboard
-                    </p>
-                </div>
-            </div>
-            <div>
-                <img src="public/phone-head.png">
-            </div>
-        </section>
-    </header>
+    <!-- Первая часть грида -->
     <main>
+        <section class="container hero">
+            <div class="content">
+                <header>
+                    <div class="logo">
+                        <img src="public/logo.svg" class="icon">
+                        NoTab
+                    </div>
+                </header>
+                <div>
+                    <h1>
+                        A platform <br />that works smarter
+                    </h1>
+                    <div class="quote">
+                        <div class="second-grad"></div>
+                        <img src="public/devourerofgods.svg">
+                        <p class="text-to-line">
+                            NoTab allows bars & nightclubs <br />to manage, understand, and grow <br />their business
+                            from a single dashboard
+                        </p>
+                    </div>
+                </div>
+                <div class="mama-gradienta">
+                    <div class="first-grad"></div>
+                    <img src="public/phone-head.png" class="phone">
+                </div>
+
+            </div>
+            <!-- вторая часть грида -->
+        </section>
         <section>
             <article>
                 <div>
@@ -50,7 +55,8 @@
                     </h1>
                     <p>
                         While technology is our sweet spot, we’ve developed our vision alongside
-                        our customers to ensure your everyday problems are solved through simplistic tools. And as your
+                        our customers to ensure your everyday problems are solved through simplistic tools. And as
+                        your
                         business grows, we’ll grow right alongside with you.
                     </p>
                 </div>
@@ -71,27 +77,24 @@
             <article>
                 <form>
                     <input id="name" class="inputs" type="text" placeholder="Name" name="name" required />
-                    
+
                     <input id="venue-name" class="inputs" type="text" placeholder="Venue name" name="vanue name"
                         required />
                     <div>
-                       
+
                         <input id="venue-city" class="inputs" type="text" placeholder="Venue city" name="venue city"
                             required />
-                        
+
                         <input id="venue-city" class="inputs" type="text" placeholder="State city" name="venue city"
                             required />
                     </div>
-                    
-                    <input id="email" class="inputs" type="email" placeholder="Email" name="Email"
-                    required />
 
-                    
-                    <input id="Subject" class="inputs" type="text" placeholder="Subject" name="Subject"
-                    required />
-                    
-                    <input id="Message" class="inputs" type="text" placeholder="Message" name="Message"
-                    required />
+                    <input id="email" class="inputs" type="email" placeholder="Email" name="Email" required />
+
+
+                    <input id="Subject" class="inputs" type="text" placeholder="Subject" name="Subject" required />
+
+                    <input id="Message" class="inputs" type="text" placeholder="Message" name="Message" required />
                     <button>Send</button>
                 </form>
             </article>
