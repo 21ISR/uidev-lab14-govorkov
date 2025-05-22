@@ -12,27 +12,35 @@ body{
 .phone{
     max-height:62.9rem;
     max-width:32.1rem;
-    margin-top: 8rem;
     display:flex;
     justify-content: center;
 }
 
 .container{
-    margin-left:50px;
-    width:95%;
+    width:100%;
     min-height: 100lvh;
+    overflow: hidden;
 }
 .content{
     
     max-width:1440px;
     margin-inline: auto;
     height: 100lvh;
-    overflow: hidden;
+
 
 }
 .mama-gradienta{
     position:relative;
 
+}
+.a{
+    display: flex;
+    justify-content: flex-start;
+    align-content: ;
+}
+.Two-text-blocks-and-a-gradient-are-in-this-div-In-fact-they-dont-get-along-they-just-have-to-live-together{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .first-grad{
     background: #F101BF;
@@ -46,12 +54,8 @@ body{
     padding: 20px;
     bottom: 250px;
     left: -250px;
-
-
-
 }
 .second-grad{
-
     background: #605CEA;
     border-radius: calc(infinity * 1px);
     opacity: 0.5;
@@ -60,8 +64,20 @@ body{
     height:20rem;
     position:absolute;
     z-index:-1;
-
 }
+.third-grad{
+    background: rgba(0, 102, 255, 1);
+    border-radius: calc(infinity * 1px);
+    opacity: 0.5;
+    filter: blur(100px);
+    width:20rem;
+    height:20rem;
+    position: absolute;
+    z-index:-1;
+    right:1500px;
+    top:850px;
+}
+
  .logo{
 
     font-family: "Montserrat", sans-serif;
@@ -78,8 +94,6 @@ body{
 h1{
     font-size:6.4rem;
     letter-spacing: 4px;
-    text-align: left;
-    margin-top:20%;
     margin-bottom: 5%;
 }
 .text-to-line{
@@ -124,7 +138,9 @@ button:hover{
 button:active{
     color:aqua;
 }
-
+.herotwo .content {
+    background-image: url(public/last-section.png);
+}
 .hero .content {
     display: grid;
     grid-template-rows: 1fr auto 1fr;
@@ -134,7 +150,4 @@ button:active{
 header {
     grid-column: span 2;
 }
-.phone{
-    width:32.1;
 
-}
