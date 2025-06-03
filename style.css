@@ -1,313 +1,349 @@
-*{
-    font-family:"Inter", sans-serif;
-    color:white;
+* {
+  font-family: "Inter", sans-serif;
+  color: white;
 }
 html {
-    width:100%;
+  width: 100%;
 }
-body{
-    width: 100%;
-    background-color: black;
+body {
+  width: 100%;
+  background-color: black;
 }
-.phone{
-    max-height:62.9rem;
-    max-width:32.1rem;
-    display:flex;
-    justify-content: center;
+.phone {
+  max-height: 62.9rem;
+  max-width: 32.1rem;
+  display: flex;
+  justify-content: center;
 }
-.container{
-    width:100%;
-    overflow: hidden;
+.container {
+  width: 100%;
+  overflow: hidden;
 }
-.content{
-    max-width:1440px;
-    margin-inline: auto;
-    height: 100lvh;
-
-
+.content {
+  max-width: 1440px;
+  margin-inline: auto;
+  height: 100lvh;
 }
-.mama-gradienta{
-    position:relative;
-
+.container .content {
+  min-height: 84.9rem;
 }
-.a{
-    display: flex;
-    justify-content: flex-start;
-    align-content: ;
+.mama-gradienta {
+  position: relative;
 }
-.Two-text-blocks-and-a-gradient-are-in-this-div-In-fact-they-dont-get-along-they-just-have-to-live-together{
-    margin-top: auto;
-    margin-bottom: auto;
+.a {
+  display: flex;
+  justify-content: flex-start;
 }
-.first-grad{
-    background: #F101BF;
-    border-radius: calc(infinity * 1px);
-    opacity: 0.5;
-    filter: blur(100px);
-    width:60rem;
-    height:60rem;
-    position:absolute;
-    z-index:-1;
-    padding: 20px;
-    bottom: 250px;
-    left: -250px;
+.Two-text-blocks-and-a-gradient-are-in-this-div-In-fact-they-dont-get-along-they-just-have-to-live-together {
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.second-grad{
-    background: #605CEA;
-    border-radius: calc(infinity * 1px);
-    opacity: 0.5;
-    filter: blur(50px);
-    width:20rem;
-    height:20rem;
-    position:absolute;
-    z-index:-1;
+.first-grad {
+  background: #f101bf;
+  border-radius: calc(infinity * 1px);
+  opacity: 0.5;
+  filter: blur(100px);
+  width: 60rem;
+  height: 60rem;
+  position: absolute;
+  z-index: -1;
+  padding: 20px;
+  bottom: 250px;
+  left: -250px;
 }
-.logo{
-    font-family: "Montserrat", sans-serif;
-    display:flex;
-    align-items:center;
-    font-weight:700;
-    font-size: 24px;
-    margin-top: 2rem;
-    
+.second-grad {
+  background: #605cea;
+  border-radius: calc(infinity * 1px);
+  opacity: 0.5;
+  filter: blur(50px);
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  z-index: -1;
 }
-.icon{
-    width:10rem;
+.logo {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 2rem;
 }
-h1{
-    font-size:6.4rem;
-    letter-spacing: 4px;
-    margin-bottom: 5%;
+.icon {
+  width: 10rem;
 }
-.text-to-line{
-    font-size:2.0rem;
-    margin-left:1.5rem;
-    margin-top: 2rem;
-    font-family: "noto sans", serif;
-    font-weight:400;
+h1 {
+  font-size: 6.4rem;
+  letter-spacing: 4px;
+  margin-bottom: 5%;
 }
-.quote{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10rem;
+.text-to-line {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  font-family: "noto sans", serif;
+  font-weight: 400;
 }
-.figma{
-    display: flexbox;
+.quote {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10rem;
 }
-button{
-    width:39.8rem;
-    height:8rem;
-    position:relative;
-    border-radius:0.9rem;
-    border-color:white;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    overflow: hidden;
-    border:2px solid rgb(184, 184, 184);
-    font-weight:700;
-    font-size:2.4rem;
+.figma {
+  display: flexbox;
 }
-button:hover{
-    border-color:rgb(102, 102, 102);
-    background-color: rgb(3, 3, 3);
-    color:rgb(58, 57, 57);
-
+button {
+  width: 39.8rem;
+  height: 8rem;
+  position: relative;
+  border-radius: 0.9rem;
+  border-color: white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid rgb(184, 184, 184);
+  font-weight: 700;
+  font-size: 2.4rem;
 }
-button:active{
-    color:aqua;
+button:hover {
+  border-color: rgb(102, 102, 102);
+  background-color: rgb(3, 3, 3);
+  color: rgb(58, 57, 57);
+}
+button:active {
+  color: aqua;
 }
 /* Где то тут раньше был анекдот */
 .hero .content {
-    display: grid;
-    grid-template-rows: 1fr auto 1fr;
-    grid-template-columns: 3fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 header {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .vignette-container {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        background-image: url(public/last-section.png);
-        background-repeat:no-repeat ;
-        background-size:cover;
-    }
-.herotwo{
-    height:100lvh;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 84.6rem;
+  overflow: hidden;
+  background-image: url(public/last-section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.herotwo {
+  height: 100lvh;
 }
 .herotwo .content {
-        width: 100%;
-        height: 100%;
-        min-height: 82.9rem;
+  width: 100%;
+  height: 100%;
+  min-height: 82.9rem;
 }
 .vignette-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        background: linear-gradient(
-            to bottom,
-            rgb(0, 0, 0, 1),
-            transparent 32.1rem,
-            transparent 30%,
-            rgba(0, 0, 0, 1)
-        );
-    }
-.excess-class{
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 1),
+    transparent 32.1rem,
+    transparent 30%,
+    rgba(0, 0, 0, 1)
+  );
 }
-.iphon{
-    transform: rotate(90deg);
-    min-height:91.80000000000008rem;
-    min-width:45.79999694824223rem;
-    margin-top:auto;
-    margin-bottom: auto;
-    font-family: "Montserrat",sans-serif ;
+.excess-class {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  gap: 30rem;
+  align-items: center;
 }
-.second-screen-and-na-nem-tipo-block-cotoriy-sprava-malenkiy{
-    margin-right:10rem;
-    font-size: 5.1rem;
-    font-weight:700;
-    max-width:400px;
-    margin-top:auto;
-    margin-bottom: auto;
-}
-.p{
-    font-size:18px;
-    font-weight:400;
-    font-family:"Noto sans",serif;
+.iphon {
+  height:80rem;
+  transform: rotate(90deg);
+  font-family: "Montserrat", sans-serif;
+  z-index: 2;
 
 }
-
-.block-on-third-screen-v-cotorom-h1-i-p{
-    display:flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-    grid-column: 2;
-    margin-bottom:7rem;
+.second-screen-and-na-nem-tipo-block-cotoriy-sprava-malenkiy {
+  margin-right: 5rem;
+  font-size: 5.1rem;
+  font-weight: 700;
+  max-width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index:2;
+ 
 }
-form{
-    width:60%;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-}
-
-input{
-    width:100%;
-    height:8.3rem;
-}
-.herothree .content{
-    justify-items: center;
-    height:auto
-}
-.flex-inputs{
-        width:49%;
-}
-.flex-inputs-mama{
-    display: flex;
-    flex-direction:row;
-    justify-content:space-between;
-}
-.inputs{
-    padding-left:2rem;
-    margin-bottom:2rem;
-    border-radius:1rem;
-}
-.inputs::placeholder{
-    color:#BFBFBF;
-    font-family: "Noto Sans" serif;
-    font-weight:400;
-}
-.form-button{
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:4rem;
-
-}
-#Message{
-    padding-bottom:19.9rem;
-    padding-top:4rem;
+.p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto sans", serif;
 }
 
-.footer-space-between{
-    margin-top:10rem;
-    display: flex;
-    justify-content: space-between;
+.block-on-third-screen-v-cotorom-h1-i-p {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+  grid-column: 2;
+  margin-bottom: 7rem;
 }
-footer .content{
-    height:100%;
+form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.margin-all{
-    font-weight:700;
+
+input {
+  width: 100%;
+  height: 8.3rem;
 }
-blockquote{
-    font-weight: 500;
+.herothree .content {
+  justify-items: center;
+  height: auto;
+}
+.flex-inputs {
+  width: 49%;
+}
+.flex-inputs-mama {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputs {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+.inputs::placeholder {
+  color: #bfbfbf;
+  font-family: "Noto Sans" serif;
+  font-weight: 400;
+}
+.form-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+#Message {
+  padding-bottom: 19.9rem;
+  padding-top: 4rem;
+}
+
+.footer-space-between {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content {
+  height: 100%;
+}
+.margin-all {
+  font-weight: 700;
+}
+blockquote {
+  font-weight: 500;
 }
 @media (max-width: 768px) {
-    .ukral-line{
-        display:none;
-        }   
+  .ukral-line {
+    display: none;
+  }
 
-    .phone{
-        max-width:50.4rem;
-        margin:auto;
-        POSITION:absolute;
-        right:-17.0rem;
-        }
+  .phone {
+    width: 60rem;
+    margin: auto;
+    position: absolute;
+    right: -17rem;
+    top: 7rem;
+  }
 
-    .hero .content {
-        padding:2rem;
-        grid-template-rows: 2fr 10fr;
-        grid-template-columns: 2fr 1fr;
-        }
-    .content{
-        height: 100rem;
-        }
-    .Two-text-blocks-and-a-gradient-are-in-this-div-In-fact-they-dont-get-along-they-just-have-to-live-together{
-        padding:0;
-        margin:0;
-    }
-    .text-to-line{
-
-        margin-top:0;
-    }
-    .first-grad{
-        width:30rem;
-        height:30rem;
-        bottom:650px;
-        left:100px;
-    }
-    .mama-gradienta{
-        display:flex;
-        align-content:center;
-    
-    }
-    h1{
-    }
-    br{
-        display:none;
-    }
-    .quote{
-        margin-right:13rem;
-    }
-    .text-to-line{
-        margin:0;    
-    }
-    .iphon{
+  .hero .content {
+    padding: 2rem;
+    grid-template-rows: 2fr 10fr;
+    grid-template-columns: 2fr 1fr;
+  }
+  .content {
+    width: 100%;
+    height: 100rem;
+  }
+  .Two-text-blocks-and-a-gradient-are-in-this-div-In-fact-they-dont-get-along-they-just-have-to-live-together {
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .text-to-line {
+    margin-top: 0;
+  }
+  .first-grad {
+    width: 30rem;
+    height: 30rem;
+    bottom: 650px;
+    left: 100px;
+  }
+  .mama-gradienta {
+    display: flex;
+    align-content: center;
+  }
+  h1 {
+  }
+  br {
+    display: none;
+  }
+  .quote {
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .text-to-line {
+    margin: 0;
+  }
+  .iphon {
     transform: rotate(0deg);
-    }
+    width: 38.4rem;
+  }
 
+  .herotwo .content {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+  }
+  .herotwo{
+    flex-direction: column;
+    display:flex
+  }
+  .second-screen-and-na-nem-tipo-block-cotoriy-sprava-malenkiy{
+    order:-100;
+    margin:0;
+    
+  }
+  .herotwo .content{
+    order:2;
+  }
+  .vignette-container{
+    order:1;
+    width:100%;
+    position: relative;
+  }
+  .iphon{
+    transform: translateY(-200px);
+    order: -1;
+  }
+  .excess-class{
+    display: flex;
+    flex-direction: column;
+  }
+  .vignette-overlay{
+    inset:0;
+    position:relative;
+  }
 }
