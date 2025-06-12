@@ -206,6 +206,7 @@ input {
   justify-items: center;
   margin-top:10rem;
   min-height: 800px;
+  height:auto;
 }
 .flex-inputs {
   width: 49%;
