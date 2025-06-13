@@ -1,0 +1,382 @@
+* {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+html {
+  width: 100%;
+}
+body {
+  width: 100%;
+  background-color: black;
+}
+.phone {
+  max-height: 62.9rem;
+  max-width: 32.1rem;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+.content {
+  max-width: 1440px;
+  margin-inline: auto;
+  height: 100lvh;
+}
+.container .content {
+  min-height: 84.9rem;
+}
+.mama-gradienta {
+  position: relative;
+}
+.a {
+  display: flex;
+  justify-content: flex-start;
+}
+.Two-text-blocks-and-a-gradient-are-in-this-div-In-fact-they-dont-get-along-they-just-have-to-live-together {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.first-grad {
+  background: #f101bf;
+  border-radius: calc(infinity * 1px);
+  opacity: 0.5;
+  filter: blur(100px);
+  width: 60rem;
+  height: 60rem;
+  position: absolute;
+  z-index: -1;
+  padding: 20px;
+  bottom: 250px;
+  left: -250px;
+}
+.second-grad {
+  background: #605cea;
+  border-radius: calc(infinity * 1px);
+  opacity: 0.5;
+  filter: blur(50px);
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  z-index: -1;
+}
+.logo {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 2rem;
+}
+.icon {
+  width: 10rem;
+}
+h1 {
+  font-size: 6.4rem;
+  letter-spacing: 4px;
+  margin-bottom: 5%;
+}
+.text-to-line {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  font-family: "noto sans", serif;
+  font-weight: 400;
+}
+.quote {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10rem;
+}
+.figma {
+  display: flexbox;
+}
+button {
+  width: 39.8rem;
+  height: 8rem;
+  position: relative;
+  border-radius: 0.9rem;
+  border-color: white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid rgb(184, 184, 184);
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+button:hover {
+  border-color: rgb(102, 102, 102);
+  background-color: rgb(3, 3, 3);
+  color: rgb(58, 57, 57);
+}
+button:active {
+  color: aqua;
+}
+/* Где то тут раньше был анекдот */
+.hero .content {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  grid-template-columns: 3fr 1fr;
+}
+header {
+  grid-column: span 2;
+}
+.vignette-container {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  min-height: 84.6rem;
+  overflow: hidden;
+  background-image: url(public/last-section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.herotwo {
+  height: 100lvh;
+}
+.herotwo .content {
+  width: 100%;
+  height: 50%;
+  min-height: 82.9rem;
+}
+.vignette-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 1),
+    transparent 32.1rem,
+    transparent 30%,
+    rgba(0, 0, 0, 1)
+  );
+}
+.excess-class {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  gap: 30rem;
+  align-items: center;
+}
+.iphon {
+
+  transform: rotate(90deg);
+  font-family: "Montserrat", sans-serif;
+  z-index: 2;
+}
+.second-screen-and-na-nem-tipo-block-cotoriy-sprava-malenkiy {
+  margin-right: 5rem;
+  font-size: 5.1rem;
+  font-weight: 700;
+  max-width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index:2;
+}
+.p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto sans", serif;
+}
+.block-on-third-screen-v-cotorom-h1-i-p {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+  grid-column: 2;
+  margin-bottom: 7rem;
+}
+form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  height: 8.3rem;
+}
+.herothree .content {
+  justify-items: center;
+  margin-top:10rem;
+  min-height: 800px;
+  height:auto;
+}
+.flex-inputs {
+  width: 49%;
+}
+.flex-inputs-mama {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputs {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+.inputs::placeholder {
+  color: #bfbfbf;
+  font-family: "Noto Sans" serif;
+  font-weight: 400;
+}
+.form-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+#Message {
+  padding-bottom: 19.9rem;
+  padding-top: 4rem;
+}
+.footer-space-between {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content {
+  height: 100%;
+}
+
+.margin-all {
+  font-weight: 700;
+}
+b {
+  font-weight: 700;
+}
+.br-768vw{
+  display: none;
+  }
+@media (max-width: 768px) {
+  .ukral-line {
+    display: none;
+  }
+  .phone {
+    width: 60rem;
+    margin: auto;
+    position: absolute;
+    right: -17rem;
+    top: 7rem;
+  }
+
+  .hero .content {
+    padding: 2rem;
+    grid-template-rows: 2fr 10fr;
+    grid-template-columns: 2fr 1fr;
+  }
+  .content {
+    width: 100%;
+    height: 100rem;
+  }
+  .Two-text-blocks-and-a-gradient-are-in-this-div-In-fact-they-dont-get-along-they-just-have-to-live-together {
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .first-grad {
+    width: 30rem;
+    height: 30rem;
+    bottom: 650px;
+    left: 100px;
+  }
+  .mama-gradienta {
+    display: flex;
+    align-content: center;
+  }
+  h1 {
+    font-size:54px;
+  }
+  br {
+    display: none;
+  }
+  .quote {
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .text-to-line {
+    margin: 0;
+  }
+  .iphon {
+    transform: rotate(0deg);
+    width: 38.4rem;
+  }
+
+  .herotwo .content {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+  }
+  .herotwo{
+    flex-direction: column;
+    display:flex;
+    min-height:1100px;
+  }
+  .second-screen-and-na-nem-tipo-block-cotoriy-sprava-malenkiy{
+    margin:0;
+    max-width:85%;
+  }
+  .vignette-container{
+    width:100%;
+    min-height: 0;
+    position: relative;
+    transform: translateY(750px);
+  }
+  .iphon{
+    width: 25%;
+    inset:0;
+  }
+  .excess-class{
+    display: flex;
+    flex-direction: column;
+    inset:0;
+  }
+  .vignette-overlay{
+    inset:0;
+    position:relative;
+  }
+  .p {
+    font-size: 27px;
+  }
+  .herothree .content{
+    margin-top: 40vw;
+    /* min-height: 1400px; */
+  }
+  .flex-inputs {
+    width: 100%;
+  }
+  .flex-inputs-mama {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs {
+    border-radius: 2rem;
+  }
+  .footer-space-between {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+
+  }
+  .margin-all{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2.0rem;
+    font-weight: 400;
+  }
+  .br-768vw{
+    display: block;
+  }
+  .block-on-third-screen-v-cotorom-h1-i-p{
+    width: 80%;
+  } 
+}
